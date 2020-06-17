@@ -1,122 +1,159 @@
 body {
-    background: url(https://www.alguerveterinaria.com/wp-content/uploads/2014/09/bkg_huellas-2_azul.jpg);
-    margin: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background: url();
+}
+.header {
+  padding: 20px 50px 50px 50px;
+  background-color: cadetblue;
     }
-    
-    .header {
-    padding: 20px 50px 50px 50px;
-    background-color: cadetblue;
-      }
-    
-    nav {
-    text-align: right;
-    padding: 30px 50px 0 0;
-    margin: 0;
-    }
-    
-    nav > a {
-    color:fff;
-    font-weight: 300;
-    text-decoration: none;
-    margin-right: 10px;
-    display: inline;
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    
-    .banner__img {
+  
+  nav {
+  text-align: right;
+  padding: 30px 50px 0 0;
+  margin: 0;
+  }
+  
+  nav > a {
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 10px;
+  display: inline;
+  font-size: 20px;
+  font-family: sans-serif;
+  }
+
+  .banner [class*="banner__txt"] {
+    font-size: 30px;
+  }
+  
+  .banner__img {
+  width: 40%;
+  height: 80%;
+  
+  }
+  .footer__img{
     width: 60%;
-    height: 80%;
-    
+    height: 40%;
     }
-    
-    .banner__titulo {
-    font-size: 40px;
-    margin: 5px 0;
-    text-align: center;
-    margin-top: -400px;
-    padding-bottom: 30%;
-    font-family: sans-serif;
-    color:cadetblue;
-    
-    }
-    .banner__txt {
-    display: block;
-    font-size: 20px;
-    margin: 7px 0;
-    text-align: center;
-    font-family: sans-serif;
-    color:cadetblue;
-    }
-    
-    img{
-      display:block;
-      margin:auto;
-      width: 350px; height: 250px;
-    }
-    
-    .form-style-1 {
-    text-align: center;
-    margin:15px auto;
-    max-width: 600px;
-    padding: 25px 15px 15px 25px;
-    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    background: white;
-    }
-    
-    .creditCardbox{
-    position: center;
-    
-    }
-    .contenedor{
-    font-family: "Lucida Console";
-    font-size: small;
-    position: absolute;
-    top: 950;
-    right: 550;
-    transform: translateX(-50%) translateY(-50%);
-    color: black;
-    text-align: right;
-    display: inline;
-    }
-    
-    .derechos .copy {
-    background-color: #333;
-    border-bottom: #333;
-    margin-bottom:0px;
-    margin-top: -7px;
-    align-content: center;
-    justify-content: center;
-    }
-    .copy {
-    text-align: center;
-    color: #fff;
-    }
-    
-    .footer {
-    background: #333;
-    color: rgb(255, 253, 253);
-    padding: 30px;
-    text-align: center;
-    }
-    
-    .info-footer{
-    text-align: left;
-    margin-top: 10px; 
-    font-family: open serif;
-    font-size: 15px;
-    line-height: 5px;
-    }
-    
-    .social [class^="fab fa"] {
-    display: inline-block;
-    color: #333;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 10px;
-    background: white;
-    border-radius: 50%;
-    width:20px;
-    height: 20px;
-    line-height: 20px;
-    }
+
+  .banner__titulo {
+  font-size: 40px;
+  margin: 5px 0;
+  text-align: center;
+  margin-top: -200px;
+  padding-bottom: 40%;
+  font-family: sans-serif;
+  color:cadetblue;
+  
+  }
+  .banner__txt {
+  display: block;
+  font-size: 40px;
+  margin: 7px 0;
+  text-align: center;
+  font-family: sans-serif;
+  color:cadetblue;
+  }
+  
+  img{
+    display:block;
+    margin:auto;
+    width: 300px; height: 200px;
+    float:inline-end
+  }
+  
+  .form-style-1 {
+  text-align: center;
+  margin:10px auto;
+  max-width: 300px;
+  padding: 10px 15px 15px 15px;
+  font: 15px "sans-serif";
+  background: white;
+  }
+  
+  .creditCardbox{
+  position: center;
+  }
+  .derechos .copy {
+  background-color: #333;
+  border-bottom: #333;
+  margin-bottom:0px;
+  margin-top: -7px;
+  align-content: center;
+  justify-content: center;
+  }
+  .copy {
+  text-align: center;
+  color: #fff;
+  font-family: Arial;
+  }
+
+  #first-footer {
+  background: #333;
+  color: rgb(255, 253, 253);
+  padding: 30px;
+  
+  }
+  .dogsfooter__img {
+    width: 100%;
+    height: 80%
+     
+  }
+  
+  .info-footer {
+  margin-top: 10px; 
+  font-family: open serif;
+  font-size: 15px;
+  line-height: 5px;
+  display: inline-block;
+  text-align: left;
+  padding-left: 38px;
+  line-height: 1.3;
+  }
+  
+  .social {
+  text-align: right;
+  display: inline-block;
+  line-height: 20px;
+  justify-content: center;
+  width:40%;
+  height: 40%;
+  vertical-align: top;
+}
+  
+  .social [class^="fab fa"] {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 10px;
+  background: white;
+  border-radius: 50%;
+  width:20px;
+  height: 18px;
+  line-height: 20px;
+  
+  }
+
+#logospagos  {
+ text-align: center;
+ float:right;
+ height:100px;
+ margin-top:10px;
+ padding-right:38px;
+ width:300px;
+ line-height: 5px;
+   }
+.contenedor {
+  position:absolute;
+  display: inline;
+  line-height:5px;
+  font-size: 15px;
+  margin:center;
+  justify-content:space-between;
+  margin-top:4px;
+  padding-top:4% ;
+  
+}
