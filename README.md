@@ -286,17 +286,17 @@ Control de versiones y trabajo colaborativo con Git y GitHub:
 
 Diseño de experiencia de usuario (User Experience Design):
 
-* [Ideación](https://lms.laboratoria.la/cohorts/scl-2020-03-bc-core-scl013/courses/intro-ux/01-el-proceso-de-diseno/00-el-proceso-de-diseno)
-* [Prototipado (sketching)](https://lms.laboratoria.la/cohorts/scl-2020-03-bc-core-scl013/courses/intro-ux/01-el-proceso-de-diseno/00-el-proceso-de-diseno)
-* [Testeo e Iteración](https://lms.laboratoria.la/cohorts/scl-2020-03-bc-core-scl013/courses/intro-ux/01-el-proceso-de-diseno/00-el-proceso-de-diseno)
+* [Ideación](https://lms.laboratoria.la/cohorts/scl-2020-05-bc-core-scl014/courses/intro-ux/01-el-proceso-de-diseno/00-el-proceso-de-diseno)
+* [Prototipado (sketching)](https://lms.laboratoria.la/cohorts/scl-2020-05-bc-core-scl014/courses/intro-ux/01-el-proceso-de-diseno/00-el-proceso-de-diseno)
+* [Testeo e Iteración](https://lms.laboratoria.la/cohorts/scl-2020-05-bc-core-scl014/courses/intro-ux/01-el-proceso-de-diseno/00-el-proceso-de-diseno)
 
 Desarrollo Front-end:
 
-* [Valores](https://lms.laboratoria.la/cohorts/scl-2020-03-bc-core-scl013/courses/javascript/01-basics/01-values-variables-and-types)
-* [Tipos](https://lms.laboratoria.la/cohorts/scl-2020-03-bc-core-scl013/courses/javascript/01-basics/01-values-variables-and-types)
-* [Variables](https://lms.laboratoria.la/cohorts/scl-2020-03-bc-core-scl013/courses/javascript/01-basics/02-variables)
-* [Control de flujo](https://lms.laboratoria.la/cohorts/scl-2020-03-bc-core-scl013/courses/javascript/02-flow-control/00-opening)
-* [Tests unitarios](https://lms.laboratoria.la/cohorts/scl-2020-03-bc-core-scl013/courses/javascript/11-testing/00-opening)
+* [Valores](https://lms.laboratoria.la/cohorts/scl-2020-05-bc-core-scl014/courses/javascript/01-basics/01-values-variables-and-types)
+* [Tipos](https://lms.laboratoria.la/cohorts/scl-2020-05-bc-core-scl014/courses/javascript/01-basics/01-values-variables-and-types)
+* [Variables](https://lms.laboratoria.la/cohorts/scl-2020-05-bc-core-scl014/courses/javascript/01-basics/02-variables)
+* [Control de flujo](https://lms.laboratoria.la/cohorts/scl-2020-05-bc-core-scl014/courses/javascript/02-flow-control/00-opening)
+* [Tests unitarios](https://lms.laboratoria.la/cohorts/scl-2020-05-bc-core-scl014/courses/javascript/11-testing/00-opening)
 * [Documentación de NPM](https://docs.npmjs.com/)
 
 Organización del Trabajo:
@@ -330,3 +330,8 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
 * [ ] Interfaz permite ingresar un número para ser validado.
 * [ ] Interfaz muestra el resultado de la validación correctamente.
 * [ ] Interfaz debe ocultar con (`#`) todos los dígitos con excepción de los últimos cuatro.
+
+
+
+-------------------------------------------------------------------------------------------------
+
