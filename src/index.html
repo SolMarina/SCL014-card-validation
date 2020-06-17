@@ -2,13 +2,116 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+   
+
+      <header class="header">
+         <div class="banner-logo">
+          <img src="img/logo-pretty-pets.png" alt="" class="logo__img">
+         </div>
+          <div>
+
+            
+            <nav class="nav" id="nav">
+                
+                    <a href="">Inicio</a>
+                    <a href="">Acerca de</a>
+                   <a href="">Servicios</a>
+                    <a href="">Contacto</a>
+               
+            </nav>
+        </div>
+    </header>
+      <div class="banner">
+        <img src="img/perros-banner.jpg" alt=""  class="banner__img">
+        <div>
+            <h3 class="banner__titulo"><strong>Bienvenidos a Pretty Pets</strong></h3>
+            <p class="banner__txt">Para reservar alguno de nuestros servicios valide su Tarjeta acá:</p>
+        </div>  
+    </div>
+  
+    <main>
+      <section class= "form-style-1">
+        <div class= "contenedor">
+          <h3 id="fname"></h3>
+          <h3 id="fnumber"></h3>
+          <h3 id="fdate"></h3>
+       </div>
+      <div class=creditCardform> 
+        <!--Tarjeta de Credito-->
+   <div class=creditCardbox> 
+       <img src="https://cdn.luxuo.com/2011/05/visa-JP-morgan.jpeg" alt="">
+      </div> 
+  <div class=creditCardform>
+      <form> 
+  <!--Insertar nombre se Usuario-->
+      <p>
+      <label>Nombre del Usuario </label>
+      <input type="text" name="text1" placeholder="Inserte su nombre aca" id="user_name">
+      </p> 
+      <br>           
+   <!--Insertar Numero de Tarjeta-->
+      <p>
+      <label>Numero de Tarjeta </label>
+      <input type="text" name="text1" placeholder="1234 5678 9012 3456" id="creditCardNumber">
+      </p>
+      <br>
+  <!--Insertar fecha de vencimiento de la tarjeta-->
+      <p>
+      <label>Fecha de Expiración</label>
+      <input type="datetime" placeholder="MM/AA" id="datenumber">
+      </p>
+    <div id="buttons">
+      <input type="button" class="btn1" value="Validar tarjeta" id="btn1"/>
+      <br>
+      <br>
+      <input type="button" class="btn2" value="Validar otra tarjeta" id="btn2" onclick="location.reload()"/>
+
+      <br>
+      </div>
+      <h1 id="validCredidcard"></h1>
+  </form>
+          </div>
+      </section>
+          </main>
+    <img src="img/perros-footer.jpg" alt=""  class="dogsfooter__img">
+    <footer id="first-footer">
+      <footer class="footer">
+        <div class="info-footer">
+            <h3 class="footer"><strong>Sobre Nosotros</strong></h3> 
+               
+
+        
+           <p>Quienes somos</p>  
+            <p>Dirección</p>
+            <p>Contáctanos</p>
+            <p>Síguenos</p>
+
+        </div>
+        <div class="social">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+        
+        <div id="logospagos">
+          <h2>Métodos de Pago</h2>
+          <img src="img/Formas-de-pago.png" alt=""  class="footer__img">
+        </div>
+      
+        
+        
+    </footer> 
+    <div class="derechos">
+            <p class="copy">&copy; Pretty Pets 2020 - Todos los derechos reservados</p>
+        </div>
+    
     <script src="index.js" type="module"></script>
   </body>
 </html>
