@@ -1,7 +1,6 @@
 
-const validator = {
-
-
+const validator = 
+{
 //Funcion maskyfy para transformar los primeros numeros en asterisco
  maskify: (creditCardNumber) => {
   if(creditCardNumber.length >= 5)

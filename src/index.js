@@ -2,6 +2,8 @@ import validator from './validator.js';
 
 const validatebuton = document.getElementById('btn1');
 validatebuton.addEventListener('click', validate);
+//const new = document.getElementById('btn1');
+//validatebuton.addEventListener('click', validate);
 
 function validate(){
   
