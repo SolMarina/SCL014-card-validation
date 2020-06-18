@@ -147,6 +147,7 @@ body {
  width:300px;
  line-height: 5px;
    }
+
 .contenedor {
   position:absolute;
   display: inline;
@@ -154,26 +155,36 @@ body {
   font-size: 15px;
   margin:center;
   justify-content:space-between;
-  margin-top:4px;
+  margin-top: 4px;
   padding-top:4% ;
   
 }
- .btn1 {
-     border-bottom: #333;
-     font-family: sans-serif;
-    font-size: 15px;
-    background:cadetblue;
-    line-height: 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    }
+.btn1 {
+  border-bottom: #333;
+  font-family: sans-serif;
+  font-size: 15px;
+  background:cadetblue;
+  line-height: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
     
- .btn2 {
-    border-bottom: #333;
-    font-family: sans-serif;
-    font-size: 15px;
-    background:cadetblue;
-    line-height: 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    }
+.btn2 {
+  border-bottom: #333;
+  font-family: sans-serif;
+  font-size: 15px;
+  background:cadetblue;
+  line-height: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.logo__img {
+  width: 10%;
+  height: 20%;
+  float:left;
+  margin-left: 25px;
+
+}
