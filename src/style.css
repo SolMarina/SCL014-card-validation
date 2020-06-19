@@ -188,3 +188,111 @@ body {
   margin-left: 25px;
 
 }
+
+.footer {
+  margin-bottom: 0px; 
+  width: 100%;
+  background: #333;
+  position: absolute;
+  height: 38%;
+}
+
+.main-footer {
+  display:flex;
+  margin-bottom: -1%;
+  height: 70%;
+
+}
+
+.main-footer .box {
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+
+.box h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: cadetblue;
+ text-align: center;
+
+}
+
+.box .content {
+display: inline-block;
+width: 50%;
+float: center; 
+margin-left: 26%;
+}
+
+.box .social {
+  text-align: center;
+  margin-top: 20px 0 0 0;
+  margin-left: 36%;
+  
+}
+
+.box .social [class^="fab fa"]{
+  text-align: center;
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 10px;
+  background: white;
+  border-radius: 50%;
+  width:20px;
+  height: 18px;
+  line-height: 20px;
+  margin-top: 5%;
+  cursor: pointer;
+  
+}
+
+#logospagos  {
+  text-align: left;
+  float: left;
+  height:110px;
+  margin-top:10px;
+  width:400px;
+  line-height: 5px;
+  color: #fff;
+  
+ }
+   
+.footer .derechos  {
+  background-color: #333;
+  border-bottom: #333;
+  margin-bottom:px;
+  margin-top: -7px;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-family: sans-serif;
+
+  }
+
+ .footer .content {
+  list-style: none;
+
+  }
+         
+  a {
+    color: #fff;
+    font-weight: 50%;
+    text-decoration: none;
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: left; 
+    line-height: 2%; 
+   }
+        
+.footer__img {
+  width: 45%;
+  height: 35%;
+  align-content: center;
+  text-align: center;
+  }
