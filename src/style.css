@@ -197,13 +197,6 @@ body {
   height: 38%;
 }
 
-.main-footer {
-  display:flex;
-  margin-bottom: -1%;
-  height: 70%;
-
-}
-
 .main-footer .box {
   flex-basis: 50%;
   padding: 10px 20px;
@@ -223,13 +216,6 @@ display: inline-block;
 width: 50%;
 float: center; 
 margin-left: 26%;
-}
-
-.box .social {
-  text-align: center;
-  margin-top: 20px 0 0 0;
-  margin-left: 36%;
-  
 }
 
 .box .social [class^="fab fa"]{
@@ -259,19 +245,6 @@ margin-left: 26%;
   color: #fff;
   
  }
-   
-.footer .derechos  {
-  background-color: #333;
-  border-bottom: #333;
-  margin-bottom:px;
-  margin-top: -7px;
-  align-content: center;
-  justify-content: center;
-  text-align: center;
-  color: #fff;
-  font-family: sans-serif;
-
-  }
 
  .footer .content {
   list-style: none;
@@ -295,4 +268,34 @@ margin-left: 26%;
   height: 35%;
   align-content: center;
   text-align: center;
+  margin-left: 33%;
   }
+
+.box .social {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 40%;
+    
+  }
+
+.main-footer {
+  display:flex;
+  margin-bottom: -1%;
+  height: 87%;
+  
+  }
+
+.footer .derechos p {
+  background-color: #333;
+  border-bottom: #333;
+  margin-bottom:px;
+  margin-top: -7px;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-family: sans-serif;
+  margin-left: 0%;
+  margin-right: 3%;
+  
+    }
