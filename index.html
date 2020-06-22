@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -9,7 +8,6 @@
   <link rel="stylesheet" href="/css/all.min.css">
   <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
 </head>
-
 <body>
   <header class="header">
     <div class="banner-logo">
@@ -45,6 +43,7 @@
           <img src="https://cdn.luxuo.com/2011/05/visa-JP-morgan.jpeg" alt="">
         </div>
 
+
         <form class="labels">
           <!--Insertar nombre se Usuario-->
           <p>
@@ -55,7 +54,7 @@
           <!--Insertar Numero de Tarjeta-->
           <p>
             <label>Número de Tarjeta </label>
-            <input type="text" name="text1" placeholder="1234 5678 9012 3456" id="creditCardNumber">
+            <input type="text" name="text1" placeholder="1234 5678 9012 3456" maxlength="16" id="creditCardNumber">
           </p>
           <br>
           <!--Insertar fecha de vencimiento de la tarjeta-->
@@ -63,14 +62,17 @@
             <label>Fecha de Expiración</label>
             <input type="datetime" placeholder="MM/AA" id="datenumber">
           </p>
+          <!--Boton para validar tarjeta, mostrar numero con funcion maskify, y fecha-->
           <div id="buttons">
             <input type="button" class="btn1" value="Validar tarjeta" id="btn1" />
             <br>
             <br>
+          <!--boton para refrescar la pagina-->
             <input type="button" class="btn2" value="Validar otra tarjeta" id="btn2" onclick="location.reload()" />
 
             <br>
           </div>
+          <!--tarjeta de credito valida o invalida-->
           <h1 id="validCredidcard"></h1>
         </form>
       </div>
@@ -110,9 +112,6 @@
       <p>&copy; Pretty Pets 2020 - Todos los derechos reservados</p>
     </div>
   </footer>
-
-
   <script src="index.js" type="module"></script>
 </body>
-
 </html>
