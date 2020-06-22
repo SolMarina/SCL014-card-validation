@@ -2,11 +2,8 @@ import validator from './validator.js';
 
 const validatebuton = document.getElementById('btn1');
 validatebuton.addEventListener('click', validate);
-//const new = document.getElementById('btn1');
-//validatebuton.addEventListener('click', validate);
 
 function validate(){
-  
 let card_number  = document.getElementById("creditCardNumber").value;
 let name  = document.getElementById("user_name").value
 let date  = document.getElementById("datenumber").value;
@@ -17,9 +14,11 @@ if(card_number=="" || !noletters(card_number))
   alert('Por favor Coloque solo Numeros en el campo  de tarjeta de credito');
 }
 else{
+//imprime numero de tarjeta usando el funcion maskify, nombre y fecha
   document.getElementById("fnumber").innerHTML = (validator.maskify(card_number));
   document.getElementById("fname").innerHTML =(name)
   document.getElementById("fdate").innerHTML =(date)
+//Imprimir mensaje si la tarjeta es valida o no
   if (validator.isValid(card_number))
   {
     document.getElementById("validCredidcard").innerHTML = "tdc valida";
