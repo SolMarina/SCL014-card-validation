@@ -17,5 +17,6 @@ Esto permite que la persona comodamente pueda pagar utilizando previamente el va
 <img src="Imagenes de Prototipos/prototipobalsamiq2.jpg" width="350" title="segundo prototipo ya definido
 ">
 </p>
-
+<img src="Imagenes de Prototipos/prototipofinal.jpg" width="350" title="Prototipo final">
+</p>
 
